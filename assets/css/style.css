@@ -1,0 +1,273 @@
+@font-face{
+font-family: 'helvetica_neue_bold';
+src:url(../fonts/helvetica_neue_bold.ttf) format("truetype") 
+}
+@font-face{
+font-family: 'helvetica_neue_light';
+src:url(../fonts/helvetica_neue_light.ttf) format("truetype") 
+}
+@font-face{
+font-family: 'helvetica_neue_roman';
+src:url(../fonts/helvetica_neue_roman.ttf) format("truetype")
+}
+
+
+.classh1{
+    font-family: helvetica_neue_roman;
+ font-weight: 400;
+color: #4d4d4d;}
+
+ body {
+    font-family: helvetica_neue_roman;
+ 
+color: #4d4d4d;}
+
+
+
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+font-family: normal
+}
+
+
+header{
+display: flex;
+justify-content: space-between;
+height: 160px;
+align-items: center;
+margin-left: 59px;
+margin-right: 79px;
+}
+.headernav{
+display: flex;
+width: 243px;
+justify-content: space-between;
+}
+.prd { width: 96px;
+    height: 24px;
+    font-family: HelveticaNeue-UltraLigCondObl;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;}
+
+    .cnt {
+        width: 96px;
+        height: 24px;
+        font-family: HelveticaNeue-UltraLigCondObl;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;}
+  
+
+
+
+.logoheader{
+padding-left: 59px;
+padding-top: 10px;
+}
+.buy-headphone{
+display: flex;
+justify-content: space-around;
+margin-left: 175px;
+}
+.classh1{ 
+font-family:helvetica_neue_light;
+font-size: 84px;
+color: #4d4d4d;
+    }
+
+.classp{
+font-family:helvetica_neue_light;
+font-size:  24px;
+color: #4d4d4d;
+padding-top: 55px;
+padding-bottom: 55px;
+} 
+.button1{
+width: 200px;
+height: 72px;
+border-radius: 5px;
+background-color: #f2f2f2;
+font-family:helvetica_neue_light;
+}
+.mainheadphone{
+display: flex;
+width: 846px;
+height: 846px;
+}
+.ulproducts{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-end;
+margin-left: 179px;
+margin-right: 170px;
+margin-top: 50.9px;
+}
+.liproducts{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.topsell{
+display: flex;
+margin-left: 200px;
+margin-right: 140px;
+display: block;
+padding-top: 126px;
+}
+.topsellh2{
+padding-left: 100px;
+}
+.topsellul{
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+padding-top: 69px;
+}
+.topsellli{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+width: calc((100% / 3) - 37px);
+}
+.topselldiv1{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-bottom: 51.6px;
+}
+.topselldiv2{
+display: flex;
+width: 300px;
+justify-content: space-between;
+}
+.whywe{
+margin-left: 300px;
+margin-right: 300px;
+padding-top: 126px;
+padding-bottom: 60px;
+
+}
+.whyweul{
+display: flex;
+justify-content: space-between;
+padding-top: 49px;
+}
+.whyweli{
+position: relative;
+}
+.whywep{
+position: absolute;
+color:  #ffffff;
+z-index: 0;
+top: 22px;
+left: 38px;
+}
+.whyweimg{
+    z-index: -1;
+    width: 482;
+    height: 290;
+}
+.whywediv{
+position: absolute;
+width: 77px;
+height: 77px;
+background-color: #ffffff;
+z-index: 0;
+bottom: 40px;
+left: 36px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+footer{
+background-color: #f2f2f2;
+height: 348px;
+    }
+.footerlogodiv{
+display: flex;
+width: 1520px;
+}
+.footerlogo{
+width: 100px;
+height: 87px;
+margin-top: 61px;
+margin-left: 200px;
+}
+.footerp{
+width: 353px;
+height: 128px;
+opacity: 0.5;
+font-family: HelveticaNeue;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.75;
+text-align: left;
+color: #4d4d4d;
+padding-top: 76px;
+padding-left: 40px;
+}
+.footerdiv{
+display: flex;
+width: 250px;
+height: 130px;
+padding-top: 73px;
+padding-left: 250px;
+text-align: left;
+flex-direction: column;
+}
+.footer-div-a{
+font-family: HelveticaNeue;
+font-size: 17px;
+font-weight: 500;
+line-height: 1.65;
+color: #4d4d4d;
+}
+.footer-1{
+padding-left: 200px;
+padding-top: 64px;
+}
+address{
+font-family: HelveticaNeue;
+font-size: 15px;
+font-weight: 500;
+line-height: 1.6;
+text-align: left;
+color: #4d4d4d;
+}
+.div-footer-svg{ 
+width: 1520px;
+display: flex;
+justify-content: flex-end;
+margin-top: 39.9px;
+}
+.footer-span{
+display: flex;
+width: 129px;
+justify-content: space-between;
+}
+hr{
+width: 1520px;
+margin-left: 200px;
+margin-right: 200px;
+opacity: 0.5;
+color: #4D4D4D;
+padding-top: 55,5px;
+}
+
+
+
+
+
+
