@@ -17,7 +17,7 @@ font-family: helvetica_neue_roman;
 font-weight: 400;
 color: #4d4d4d;}
 
-body {
+body,h3{
 font-family: helvetica_neue_roman;
 
 color: #4d4d4d;}
@@ -104,6 +104,14 @@ border-radius: 5px;
 background-color: #f2f2f2;
 border-color: #f2f2f2;
 font-family:helvetica_neue_light;
+font-size: 18px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 2;
+letter-spacing: normal;
+text-align: center;
+color: #4d4d4d;
 }
 
 
@@ -127,13 +135,23 @@ flex-direction: row;
 align-items: center;
 }
 .buy {
-color: #4d4d4d; }
+width: 96px;
+height: 24px;
+font-family: HelveticaNeue-UltraLigCondObl;
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 2;
+letter-spacing: normal;
+color: #4d4d4d}}
 .topsell{
 display: flex;
 margin-left: 200px;
 margin-right: 140px;
 display: block;
 padding-top: 126px;
+
 }
 .topsellh2{
 padding-left: 100px;
@@ -188,8 +206,8 @@ left: 38px;
 }
 .whyweimg{
 z-index: -1;
-width: 482;
-height: 290;
+width: 440px;
+height: 290px;
 }
 .whywediv{
 position: absolute;
