@@ -49,24 +49,22 @@ width: 243px;
 justify-content: space-between;
 }
 .headernav::before {
-    content: '';
-    width: 30px;
-    position: absolute;
-    border-bottom: 5px solid #4d4d4d;
-    bottom:0;
-    right:150px;
-    transition: 0.5s all;
-    opacity: 0;
-    
-    
-    
-}
+content: '';
+width: 36px;
+height: 3px;
+position: absolute;
+border-bottom: 1px solid #4d4d4d;
+bottom:0;
+right:200px;
+transition: 0.5s all;
+opacity:0;
 
-.headernav:hover:before{
-    transition: 0.05s all;
-    opacity: 1;
-    
+
+
 }
+.headernav:hover:before{
+opacity:1;
+transition: 0.05s all;}
 
 
 
@@ -155,9 +153,31 @@ margin-top: 50.9px;
 }
 .liproducts{
 display: flex;
+position: relative;
 flex-direction: row;
 align-items: center;
+
 }
+
+.liproducts::before {
+content: '';
+width: 30px;
+position: absolute;
+border-bottom: 5px solid #4d4d4d;
+bottom:0;
+right:240px;
+transition: 1s all;
+opacity: 0.01
+}
+.liproducts:hover:before{
+    opacity:1;
+right: 10px;
+transition: 0.09s all;
+
+}
+
+
+
 .buy {
 color: #4d4d4d; }
 .topsell{
